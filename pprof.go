@@ -3,8 +3,7 @@ package ginpprof
 import (
 	"net/http/pprof"
 	"strings"
-
-	"github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin.v1"
 )
 
 // Wrap adds several routes from package `net/http/pprof` to *gin.Engine object
